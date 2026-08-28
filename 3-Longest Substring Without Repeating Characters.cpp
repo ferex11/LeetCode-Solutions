@@ -1,7 +1,4 @@
-// Problem Link : https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
-
 // Brute Force Approach
-
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
@@ -19,11 +16,8 @@ public:
         return maxLen;
     }
 };
-// Time Complexity: O(n^2)
-// Space Complexity: O(1)
 
 // Optimal Approach
-
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
@@ -45,5 +39,3 @@ public:
         return res;
     }
 };
-// Time Complexity: O(n)
-// Space Complexity: O(1)
