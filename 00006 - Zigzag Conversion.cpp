@@ -1,5 +1,3 @@
-// Problem Link : https://leetcode.com/problems/zigzag-conversion/description/
-
 class Solution {
 public:
     string convert(string s, int numRows) {
@@ -19,6 +17,3 @@ public:
         return result;
     }
 };
-// Time Complexity: O(n)
-// Space Complexity: O(n) for storing the output string.
-// No extra auxiliary space is used apart from the returned answer.
